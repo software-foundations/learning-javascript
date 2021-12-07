@@ -1,0 +1,69 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Console",						
+			"variants": [
+				{
+					"name": "Nodemon",
+					"shell_cmd": "\"nodemon\" \"$file\"",
+				},
+				{
+					"name": "Node",
+					"shell_cmd": "\"node\" \"$file\"",
+				}
+			]
+		},
+
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"auto_close": false,
+			"focus": true,
+			"name": "Terminal",
+			"post_window_hooks":
+			[
+				[
+					"carry_file_to_pane",
+					{
+						"direction": "right",
+					}
+				]
+			],						
+			"target": "terminus_open",
+			"timeit": true,
+			"title": "Terminal",
+			"variants":
+			[
+				{
+					"name": "Node",
+					"shell_cmd": "\"node\" \"${file}\"",
+				},
+				{
+					"name": "Nodemon",
+					"shell_cmd": "\"nodemon\" \"$file\"",
+				},
+				{
+					"name": "chromium",
+					"shell_cmd": "chromium \"$file\"",
+					"auto_close": true,
+				}
+			],
+			"working_dir": "$file_path",
+		},
+	],
+
+
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "../clone-coder-javascript/"
+		},
+		{
+			"path": "../clone-javascript-luizomf/"
+		}
+	],
+}
