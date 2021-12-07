@@ -36,14 +36,17 @@
 			"variants":
 			[
 				{
+					"title":"Node",
 					"name": "Node",
 					"shell_cmd": "\"node\" \"${file}\"",
 				},
 				{
+					"title": "Nodemon",
 					"name": "Nodemon",
 					"shell_cmd": "\"nodemon\" \"$file\"",
 				},
 				{
+					"title": "Chromium",
 					"name": "chromium",
 					"shell_cmd": "chromium \"$file\"",
 					"auto_close": true,
