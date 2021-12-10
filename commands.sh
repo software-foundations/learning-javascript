@@ -21,3 +21,6 @@ touch eslintrc.js
 # -> LSP - typescript (sublime package)
 # https://stackoverflow.com/questions/68425838/sublime-text-4-how-to-setup-lsp-eslint
 # https://packagecontrol.io/packages/LSP-typescript
+
+# -> exit node console
+.exit
