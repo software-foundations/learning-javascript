@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "section_06_function",
+  "description": "- Pass a function as a parameter - Return a function from another - Declare a function inside another - Storage a function in a variable",
+  "version": "1.0.0",
+  "main": "function_01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
