@@ -19,3 +19,9 @@
 # Bu default
 
 - A function return undefined
+
+# Parameters and return are optional
+
+- We can pass more parameters than it takes
+- We can pass less parameters then it takes
+- There is variable parameters

@@ -11,7 +11,7 @@
 				},
 				{
 					"name": "Node",
-					"shell_cmd": "\"node\" \"$file\"",
+					"shell_cmd": "\"/home/bruno/.nvm/versions/node/v16.13.2/bin/node\" \"$file\"",
 				}
 			]
 		},
@@ -38,7 +38,7 @@
 				{
 					"title":"Node",
 					"name": "Node",
-					"shell_cmd": "\"node\" \"${file}\"",
+					"shell_cmd": "\"/home/bruno/.nvm/versions/node/v16.13.2/bin/node\" \"${file}\"",
 				},
 				{
 					"title": "Nodemon",
