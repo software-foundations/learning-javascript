@@ -25,3 +25,12 @@
 - We can pass more parameters than it takes
 - We can pass less parameters then it takes
 - There is variable parameters
+
+# Variable parameters
+
+- We can use spread operator or arguments keyword (before ECMAScript 2015)
+- We can pass parameter to functions, even if the function not has a parameter
+- We can do this sayed above using arguments keyword
+- The arguments keyword is an objetc which contains the function parameters
+- It contain the parameter even if the parameter is not explicit
+- So, we can access variable (not explicit) parameters using arguments keyword
