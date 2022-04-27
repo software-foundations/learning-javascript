@@ -34,3 +34,17 @@
 - The arguments keyword is an objetc which contains the function parameters
 - It contain the parameter even if the parameter is not explicit
 - So, we can access variable (not explicit) parameters using arguments keyword
+
+# Default Parameter
+
+- There are some ways
+
+<div style="text-align:justify">
+	<ol>
+		<li>Using || operator</li>
+		<li>Using ? operator combined with unidefined</li>
+		<li>Using ? operator combined with arguments</li>
+		<li>Using ? operator combined with isNan</li>
+		<li><code>function myFuction(a = 1, b = 1, c = 1)</code></li>
+	</ol>
+</div>
