@@ -48,3 +48,33 @@
 		<li><code>function myFuction(a = 1, b = 1, c = 1)</code></li>
 	</ol>
 </div>
+
+# This can varies
+
+<div style="text-align:justify">
+	<p><code>this</code> points to the current global object it is in</p>
+	<p><code>this</code> varies according to the way you call a function</p>
+	<p><code>this</code>, inside an arrow function, remains pointing to the global object which called this arrow function</p>
+	<p><code>this</code> isn't remains pointing to the global object which called a normal function</p>
+</div>
+
+```javascript
+// on browser
+
+try
+{
+	function f1() { console.log(this === window) }
+	document.getelementsByTagName('body')[0].onclick = function() {f1} // false
+
+	function f2() { console.log(this === document) }
+	document.getelementsByTagName('body')[0].onclick = function() {f2} // true
+
+	const f3 = () => console.log(this === window) // true
+}
+catch(error)
+{
+	console.log('not in browser')
+}
+
+console.log(this)
+```
