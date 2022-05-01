@@ -154,6 +154,8 @@ Good morning
 
 # Callback functions
 
+- Callback is a functiobn called back when something happen
+
 - Callback means call back
 
 - It refers to the observer pattern
@@ -161,3 +163,7 @@ Good morning
 - This pattern is the most used in the web
 
 - It is commonly used in ajax requests
+
+- It is commonly used in events in general (specially browse events)
+
+- We can have <array>.filter(calback)
