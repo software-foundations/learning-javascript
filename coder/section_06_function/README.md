@@ -113,3 +113,12 @@ Good morning
 undefined
 Good morning
 ```
+
+- In resume, there are 2 solutions to manage where this is pointing
+
+<div style="text-align:justify">
+	<ol>
+	    <li>bind</li>
+	    <li>storage this in a constant</li>
+	</ol>
+</div>
