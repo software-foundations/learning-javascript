@@ -78,3 +78,38 @@ catch(error)
 
 console.log(this)
 ```
+
+# This and the function bind
+
+- bind inproves control to  where "this" is pointing
+- bind makes this trust
+
+```javascript
+// We can storage functions in objects
+
+const person = {
+	greeting: 'Good morning',
+	speak() {
+		console.log(this.greeting)
+	}
+}
+
+person.speak()
+
+const speak = person.speak
+// conflict between functional and oo
+speak() // undefined
+
+// We solve this conflict using bind
+// .bind makes this explicit points to an object
+const speakFromPerson = person.speak.bind(person)
+
+speakFromPerson()
+
+```
+
+```console
+Good morning
+undefined
+Good morning
+```

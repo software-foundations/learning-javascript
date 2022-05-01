@@ -9,6 +9,7 @@ try
 	document.getelementsByTagName('body')[0].onclick = function() {f2} // true
 
 	const f3 = () => console.log(this === window) // true
+	
 }
 catch(error)
 {
