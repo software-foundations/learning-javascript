@@ -114,11 +114,22 @@ undefined
 Good morning
 ```
 
-- In resume, there are 2 solutions to manage where this is pointing
+- In resume, there are solutions to manage where this is pointing
 
 <div style="text-align:justify">
 	<ol>
 	    <li>bind</li>
 	    <li>storage this in a constant</li>
+	    <li>arrow function</li>
 	</ol>
 </div>
+
+# Arrow function
+
+- It holds the this pointing by the global object who is calling it
+
+- It reduces the syntax
+
+- It is useful when we have small funcitons
+
+- It matches with the functional paradigm
