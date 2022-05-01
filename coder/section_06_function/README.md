@@ -151,3 +151,13 @@ Good morning
 - Can be stored into variables
 
 - Can be stored into objects
+
+# Callback functions
+
+- Callback means call back
+
+- It refers to the observer pattern
+
+- This pattern is the most used in the web
+
+- It is commonly used in ajax requests
