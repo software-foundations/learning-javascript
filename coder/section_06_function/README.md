@@ -143,3 +143,11 @@ Good morning
 - It is useful when we have small funcitons
 
 - It matches with the functional paradigm
+
+# Anonymous function
+
+- Are not named functions
+
+- Can be stored into variables
+
+- Can be stored into objects
