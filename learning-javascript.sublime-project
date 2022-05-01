@@ -13,7 +13,7 @@
 					"name": "Node",
 					"shell_cmd": "\"/home/bruno/.nvm/versions/node/v16.13.2/bin/node\" \"$file\"",
 				}
-			]
+			],
 		},
 
 		{
@@ -54,22 +54,28 @@
 			],
 			"working_dir": "$file_path",
 		},
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"/home/bruno/Documents/dev/design-patterns/venv-software-fundamentals/bin/python\" -u \"$file\"",
+		},
 	],
 
 
 	"folders":
 	[
 		{
-			"path": "."
+			"path": ".",
 		},
 		{
-			"path": "../clone-coder-javascript/"
+			"path": "../clone-coder-javascript/",
 		},
 		{
-			"path": "../clone-javascript-luizomf/"
+			"path": "../clone-javascript-luizomf/",
 		},
 		{
-			"path": "../learning-typescript/"
+			"path": "../learning-typescript/",
 		}
 	],
 }

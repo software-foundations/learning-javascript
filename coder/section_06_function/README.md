@@ -128,6 +128,10 @@ Good morning
 
 - It holds the this pointing by the global object who is calling it
 
+- The 'this' in arrow function is fixed
+
+- The 'this' in arrow function is based on the context where the function is in
+
 - It reduces the syntax
 
 - It is useful when we have small funcitons
