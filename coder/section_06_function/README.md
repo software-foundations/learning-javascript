@@ -132,6 +132,12 @@ Good morning
 
 - The 'this' in arrow function is based on the context where the function is in
 
+- In arrow funcitons, 'this' points to the module context where the arrow function was placed in
+
+- The arrow functions has higher priority than bind() about 'this' reference
+
+- Even eith .bind(), this holds the reference when using arrow functions
+
 - It reduces the syntax
 
 - It is useful when we have small funcitons
