@@ -183,3 +183,11 @@ Good morning
 # Lexical Context
 
 - Is about lexical context which variables were declared
+
+# Closure
+
+- It is the scope created when a function is declared
+
+- This score allows the function to access variables declared outside it
+
+- Remember that the scope where the function is declared remains along the code
