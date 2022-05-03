@@ -167,3 +167,9 @@ Good morning
 - It is commonly used in events in general (specially browse events)
 
 - We can have <array>.filter(calback)
+
+# Constructor functions
+
+- Are functions to build objects
+
+- In JavaScript, even a class is a function
