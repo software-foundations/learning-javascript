@@ -173,3 +173,9 @@ Good morning
 - Are functions to build objects
 
 - In JavaScript, even a class is a function
+
+# Ways to declare a function
+
+1. function declaration (the formal ways using function keyword)
+2. anonymous funciton expression
+3. named function expression (not widely used)
