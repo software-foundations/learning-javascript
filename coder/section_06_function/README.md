@@ -179,3 +179,7 @@ Good morning
 1. function declaration (the formal ways using function keyword)
 2. anonymous funciton expression
 3. named function expression (not widely used)
+
+# Lexical Context
+
+- Is about lexical context which variables were declared
