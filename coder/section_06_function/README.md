@@ -195,3 +195,9 @@ Good morning
 # Factory functions
 
 - Are functions to create objects
+
+- Even class are contructor funcitons with a different way to write
+
+- 'this' keyword is not necessary in factory functions
+
+- 'this' keyword is necessary in classes
