@@ -191,3 +191,7 @@ Good morning
 - This score allows the function to access variables declared outside it
 
 - Remember that the scope where the function is declared remains along the code
+
+# Factory functions
+
+- Are functions to create objects
