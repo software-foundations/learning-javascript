@@ -201,3 +201,13 @@ Good morning
 - 'this' keyword is not necessary in factory functions
 
 - 'this' keyword is necessary in classes
+
+# IIFE (Immediately Invoked Funcion Expression)
+
+- Is a funciton that call itself by the moment it is defined
+
+- The variables declired insided this funciton are local
+
+- It prevents to pollute the global scope
+
+- But you can delliberated access the global scope
