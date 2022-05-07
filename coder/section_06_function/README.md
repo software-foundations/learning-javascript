@@ -211,3 +211,20 @@ Good morning
 - It prevents to pollute the global scope
 
 - But you can delliberated access the global scope
+
+# Call and Apply
+
+- Are more ways to call a function
+
+- There is difference between call and apply
+
+- The difference is the way you pass the parameters
+
+- Remember that we can call a function from a global object
+
+- Remember that we can call a function from an object
+
+```javascript
+// <function>.call(context_object, arg 1, arg 2)
+// <function>.apply(context_object, [arg 1, arg 2])
+```
