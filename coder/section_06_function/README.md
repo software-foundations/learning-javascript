@@ -228,3 +228,15 @@ Good morning
 // <function>.call(context_object, arg 1, arg 2)
 // <function>.apply(context_object, [arg 1, arg 2])
 ```
+
+# Comparison beteeen string of numbers
+
+- Comparison between string of numbers acts like numbers from number to 0-9
+
+- But this behavior changes when the string of numbers are greather than 9
+
+- The comparison ofvalues beyond 9 will validate only the first number of the numeral string, valdating without alphabetical order
+
+- Agora se compararmos os valores depois do nove, a comparação irá validar o primeiro número da cadeia numeral, validando sua ordem alfabética.
+
+- So, compare string of numbers mustn't be adoppted at all
