@@ -19,3 +19,11 @@
 - These methods above are relationed with booth object and functions
 
 - Tip: don't confuse Literal object notation with JSON
+
+# Constant Objects
+
+- Why is possible alter Object data declared using const keyword ?
+
+- Because using const turns constant the reference to the object
+
+- To make the object constat, use Object.freeze(<object>)
