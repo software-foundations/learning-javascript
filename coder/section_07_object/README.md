@@ -90,3 +90,41 @@ console.log(obj)
 obj.f1()
 obj.f2()
 ```
+
+# Getters and Setters
+
+- To get and set an attribute
+
+- <uderline><attribute> is a convention to private attributes
+
+```javascript
+const sequency = {
+	_value: 1,
+
+	get value()
+	{
+		return this._value++
+	},
+
+	set value(value)
+	{
+		if (value > this._value)
+		{
+			this._value = value
+		}
+	}
+}
+
+// 1 2
+console.log(sequency.value, sequency.value)
+
+sequency.value = 1000
+
+// 1000 1001
+console.log(sequency.value, sequency.value)
+
+sequency.value = 900
+
+// 1002 1003
+console.log(sequency.value, sequency.value)
+```
