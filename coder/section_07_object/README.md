@@ -128,3 +128,12 @@ sequency.value = 900
 // 1002 1003
 console.log(sequency.value, sequency.value)
 ```
+
+# Important Object functions
+
+- Object.keys
+- Object.values
+- Object.entries
+- Object.defineProperty
+- Object.assign
+- Object.freeze
