@@ -165,3 +165,10 @@ console.log(sequency.value, sequency.value)
 # Inheritance (function and prototype)
 
 - When we create differents objects from the same constructor function, the objects has the same __proto__ property by default
+
+# Inheritance (typeof)
+
+- typeof String
+- typeof Array
+- typeof Object
+- NEVER OVERRIDE BUILT IN PROTOTYPE FUNCTIONS
