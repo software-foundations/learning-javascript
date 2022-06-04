@@ -151,3 +151,13 @@ console.log(sequency.value, sequency.value)
 - The name describe itself
 
 - Atributes can be shading by child prototypes
+
+# Inheritance (Impacting in loop through an object)
+
+- Object.create(<fatherObject>)
+
+- <object>.hasOwnProperty(<property>)
+
+- Object.keys(<object>)
+
+- for (key in <object>) {}
