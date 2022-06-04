@@ -172,3 +172,9 @@ console.log(sequency.value, sequency.value)
 - typeof Array
 - typeof Object
 - NEVER OVERRIDE BUILT IN PROTOTYPE FUNCTIONS
+
+# Inheritance (new)
+
+- Even Objects are functions
+- We can have Constructor functions
+- We can instantiate Constructor functions with <code>new</code> operator
