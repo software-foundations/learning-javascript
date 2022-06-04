@@ -137,3 +137,17 @@ console.log(sequency.value, sequency.value)
 - Object.defineProperty
 - Object.assign
 - Object.freeze
+
+# Inheritance (Prototype)
+
+- Make a class extands other class
+- It improve reusability
+- Choose composition instead of inheritance always you can
+- The inheritance in js is based on Prototypes
+- In a prototype, things will be searched from the inner prototype for the outer one
+
+# Inheritance (Prototype chain)
+
+- The name describe itself
+
+- Atributes can be shading by child prototypes
