@@ -178,3 +178,12 @@ console.log(sequency.value, sequency.value)
 - Even Objects are functions
 - We can have Constructor functions
 - We can instantiate Constructor functions with <code>new</code> operator
+
+# Avoid Modifications
+
+- <code>Object.preventExtensions(<object>)</code> prevents add properties 
+
+- <code>Object.seal(<object>)</code> prevents add/delete properties
+
+- <code>Object.freeze(<object>)</code> sealed + constant property values
+ 
