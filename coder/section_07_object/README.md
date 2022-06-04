@@ -161,3 +161,7 @@ console.log(sequency.value, sequency.value)
 - Object.keys(<object>)
 
 - for (key in <object>) {}
+
+# Inheritance (function and prototype)
+
+- When we create differents objects from the same constructor function, the objects has the same __proto__ property by default
