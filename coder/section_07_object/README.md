@@ -186,4 +186,12 @@ console.log(sequency.value, sequency.value)
 - <code>Object.seal(<object>)</code> prevents add/delete properties
 
 - <code>Object.freeze(<object>)</code> sealed + constant property values
- 
+
+# JSON vs Object
+
+- JSON means JavaScript Object Notation
+- JSON is a String representation of an object
+- JSON is a format is interoperable between systems
+- <code>JSON.stringify(obj)</code>
+- <code>JSON.parse(string)</code>
+- You can validate JSON format by <a href="https://jsonlint.com/">Json lint</a>
