@@ -195,3 +195,8 @@ console.log(sequency.value, sequency.value)
 - <code>JSON.stringify(obj)</code>
 - <code>JSON.parse(string)</code>
 - You can validate JSON format by <a href="https://jsonlint.com/">Json lint</a>
+
+# Classes
+
+- We might use constructor functions instead of classes
+- But they both works well
