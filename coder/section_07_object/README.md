@@ -200,3 +200,5 @@ console.log(sequency.value, sequency.value)
 
 - We might use constructor functions instead of classes
 - But they both works well
+- Class mechanism in JS is made on top of functions
+- Inheritance (<code>extends</code>) mechanism in JS is made on top of prototype
