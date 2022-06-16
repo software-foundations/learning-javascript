@@ -21,4 +21,15 @@
 
 # Simulating array with object
 
-- 
+- No new concepts presented
+
+
+# For Each
+
+- Is a way to iterate over an array
+
+- It is recommend use other methods, like reduce, with more proposal then it
+
+- <code>arr.forEach(element, index, array)</code>
+
+- Where <code>array === myArray</code>
