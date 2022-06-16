@@ -18,3 +18,7 @@
 - <code>shift()<code/> removes the first item of the array
 - <code>unshift(item)<code/> adds item to the beginning of the array
 - <code>slice(startIndex, numberItems)<code/> slice and return a new array
+
+# Simulating array with object
+
+- 
