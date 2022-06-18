@@ -65,3 +65,11 @@ const people = ['Bruno', 'Tom', 'Morgan']
 
 Object.defineProperty(people,'forEach2',forEach2)
 ```
+
+# Map
+
+- Generate a new array
+- It maps the array from another one
+- The new array has the same size
+- The new array might has its data transformed
+- <code>arrObj.map((value, index, array)=>{})</code>
