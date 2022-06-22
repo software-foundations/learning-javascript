@@ -73,3 +73,11 @@ Object.defineProperty(people,'forEach2',forEach2)
 - The new array has the same size
 - The new array might has its data transformed
 - <code>arrObj.map((value, index, array)=>{})</code>
+
+# Filter
+
+- Filter an array by some criteria
+- Result in a subarray
+```javascript
+arrObj.filter( function(elem, index, array, thisArg) { return boolean })
+```
