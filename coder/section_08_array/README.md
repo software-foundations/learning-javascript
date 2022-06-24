@@ -81,3 +81,14 @@ Object.defineProperty(people,'forEach2',forEach2)
 ```javascript
 arrObj.filter( function(elem, index, array, thisArg) { return boolean })
 ```
+
+# Reduce
+
+- The parameter is processed and then passed to the next iteration
+- Then, we have the accumulator and the current item
+- It makes a <code>for</code> loop internally
+- <code>initialValue</code> is optional
+
+```javascript
+arrObj.filter( function(accumulator, current, index, array){...}, initialValue)
+```
