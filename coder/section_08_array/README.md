@@ -92,3 +92,11 @@ arrObj.filter( function(elem, index, array, thisArg) { return boolean })
 ```javascript
 arrObj.filter( function(accumulator, current, index, array){...}, initialValue)
 ```
+
+# Imperative vs Declarative
+
+- Declarative is
+
+1. More reusable
+2. More readable
+3. 'why' is more important than 'how' something is done
