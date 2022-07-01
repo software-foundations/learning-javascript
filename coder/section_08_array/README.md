@@ -100,3 +100,9 @@ arrObj.filter( function(accumulator, current, index, array){...}, initialValue)
 1. More reusable
 2. More readable
 3. 'why' is more important than 'how' something is done
+
+# Concat
+
+- Useful to concat elements, generating an array
+
+- <code>arrObj.concat(arr, obj, item, any)</code>
