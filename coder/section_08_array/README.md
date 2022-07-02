@@ -106,3 +106,11 @@ arrObj.filter( function(accumulator, current, index, array){...}, initialValue)
 - Useful to concat elements, generating an array
 
 - <code>arrObj.concat(arr, obj, item, any)</code>
+
+# FlatMap
+
+- It is a map associated with concat
+
+- It is not in default JS api
+
+- It is a course implementation
